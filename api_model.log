@@ -1,0 +1,77 @@
+2025-05-13 23:44:30,973 - INFO - CryptoPanic API令牌: 8d7f1eb6e71cf075c575d3839eb697a5ef465104
+2025-05-13 23:47:20,152 - INFO - CryptoPanic API令牌: 8d7f1eb6e71cf075c575d3839eb697a5ef465104
+2025-05-13 23:47:20,152 - ERROR - 解析JSON参数失败: Expecting property name enclosed in double quotes: line 1 column 2 (char 1)
+2025-05-13 23:47:20,152 - INFO - 预测参数 - 天数: 7, 情感分数: None
+2025-05-13 23:47:20,152 - ERROR - 加载模型或标准化器失败: [Errno 2] No such file or directory: 'crypto_model.joblib'
+2025-05-13 23:58:18,674 - INFO - CryptoPanic API令牌: 8d7f1eb6e71cf075c575d3839eb697a5ef465104
+2025-05-13 23:58:18,674 - INFO - 收到的原始参数: {'days': 3, 'sentiment_score': 0}
+2025-05-13 23:58:18,674 - INFO - 参数已经是字典类型: {'days': 3, 'sentiment_score': 0}
+2025-05-13 23:58:18,675 - INFO - 预测参数 - 天数: 3, 情感分数: 0
+2025-05-13 23:58:18,675 - INFO - 加载模型文件: models/crypto_model.joblib
+2025-05-13 23:58:22,969 - INFO - 加载标准化器文件: price_scaler.joblib
+2025-05-13 23:58:22,970 - INFO - 模型和标准化器加载成功
+2025-05-13 23:58:23,003 - INFO - 请求CryptoPanic API: https://cryptopanic.com/api/v1/posts/?auth_token=8d7f1eb6e71cf075c575d3839eb697a5ef465104&currencies=BTC&kind=news&limit=10
+2025-05-13 23:58:23,517 - INFO - CryptoPanic API响应状态码: 200
+2025-05-13 23:58:23,517 - INFO - CryptoPanic API响应数据: {"count": 200, "next": "https://cryptopanic.com/api/v1/posts/?auth_token=8d7f1eb6e71cf075c575d3839eb697a5ef465104&currencies=BTC&kind=news&limit=5&page=2", "previous": null, "results": [{"kind": "news...
+2025-05-13 23:58:23,518 - INFO - 成功获取 20 条新闻
+2025-05-13 23:59:40,820 - INFO - CryptoPanic API令牌: 8d7f1eb6e71cf075c575d3839eb697a5ef465104
+2025-05-13 23:59:40,820 - INFO - 收到的原始参数: {'days': 3, 'sentiment_score': 0}
+2025-05-13 23:59:40,821 - INFO - 参数已经是字典类型: {'days': 3, 'sentiment_score': 0}
+2025-05-13 23:59:40,821 - INFO - 预测参数 - 天数: 3, 情感分数: 0
+2025-05-13 23:59:40,821 - INFO - 加载模型文件: models/crypto_model.joblib
+2025-05-13 23:59:41,207 - INFO - 加载标准化器文件: price_scaler.joblib
+2025-05-13 23:59:41,207 - INFO - 模型和标准化器加载成功
+2025-05-13 23:59:41,239 - INFO - 请求CryptoPanic API: https://cryptopanic.com/api/v1/posts/?auth_token=8d7f1eb6e71cf075c575d3839eb697a5ef465104&currencies=BTC&kind=news&limit=10
+2025-05-13 23:59:42,697 - INFO - CryptoPanic API响应状态码: 200
+2025-05-13 23:59:42,698 - INFO - CryptoPanic API响应数据: {"count": 200, "next": "https://cryptopanic.com/api/v1/posts/?auth_token=8d7f1eb6e71cf075c575d3839eb697a5ef465104&currencies=BTC&kind=news&limit=5&page=2", "previous": null, "results": [{"kind": "news...
+2025-05-13 23:59:42,698 - INFO - 成功获取 20 条新闻
+2025-05-14 00:03:32,976 - INFO - CryptoPanic API令牌: 8d7f1eb6e71cf075c575d3839eb697a5ef465104
+2025-05-14 00:03:32,976 - INFO - 收到的原始参数: {'days': 3, 'sentiment_score': 0}
+2025-05-14 00:03:32,976 - INFO - 参数已经是字典类型: {'days': 3, 'sentiment_score': 0}
+2025-05-14 00:03:32,977 - INFO - 预测参数 - 天数: 3, 情感分数: 0
+2025-05-14 00:03:32,977 - INFO - 加载模型文件: models/crypto_model.joblib
+2025-05-14 00:03:33,350 - INFO - 加载标准化器文件: price_scaler.joblib
+2025-05-14 00:03:33,351 - INFO - 模型和标准化器加载成功
+2025-05-14 00:03:33,383 - INFO - 请求CryptoPanic API: https://cryptopanic.com/api/v1/posts/?auth_token=8d7f1eb6e71cf075c575d3839eb697a5ef465104&currencies=BTC&kind=news&limit=10
+2025-05-14 00:03:34,951 - INFO - CryptoPanic API响应状态码: 200
+2025-05-14 00:03:34,952 - INFO - CryptoPanic API响应数据: {"count": 200, "next": "https://cryptopanic.com/api/v1/posts/?auth_token=8d7f1eb6e71cf075c575d3839eb697a5ef465104&currencies=BTC&kind=news&limit=10&page=2", "previous": null, "results": [{"kind": "new...
+2025-05-14 00:03:34,952 - INFO - 成功获取 20 条新闻
+2025-05-14 00:18:51,058 - INFO - CryptoPanic API令牌: 8d7f1eb6e71cf075c575d3839eb697a5ef465104
+2025-05-14 00:18:51,058 - INFO - 收到的原始参数: {'days': 3, 'sentiment_score': 0}
+2025-05-14 00:18:51,058 - INFO - 参数已经是字典类型: {'days': 3, 'sentiment_score': 0}
+2025-05-14 00:18:51,058 - INFO - 预测参数 - 天数: 3, 情感分数: 0
+2025-05-14 00:18:51,058 - INFO - 加载模型文件: models/crypto_model.joblib
+2025-05-14 00:18:51,438 - INFO - 加载标准化器文件: price_scaler.joblib
+2025-05-14 00:18:51,438 - INFO - 模型和标准化器加载成功
+2025-05-14 00:18:51,469 - INFO - 请求CryptoPanic API: https://cryptopanic.com/api/v1/posts/?auth_token=8d7f1eb6e71cf075c575d3839eb697a5ef465104&currencies=BTC&kind=news&limit=10
+2025-05-14 00:18:52,662 - INFO - CryptoPanic API响应状态码: 200
+2025-05-14 00:18:52,662 - INFO - CryptoPanic API响应数据: {"count": 200, "next": "https://cryptopanic.com/api/v1/posts/?auth_token=8d7f1eb6e71cf075c575d3839eb697a5ef465104&currencies=BTC&kind=news&limit=10&page=2", "previous": null, "results": [{"kind": "new...
+2025-05-14 00:18:52,662 - INFO - 成功获取 20 条新闻
+2025-05-14 00:25:07,910 - INFO - CryptoPanic API令牌: 8d7f1eb6e71cf075c575d3839eb697a5ef465104
+2025-05-14 00:25:07,911 - INFO - 收到的原始参数: {'days': 3, 'sentiment_score': 0}
+2025-05-14 00:25:07,911 - INFO - 参数已经是字典类型: {'days': 3, 'sentiment_score': 0}
+2025-05-14 00:25:07,911 - INFO - 预测参数 - 天数: 3, 情感分数: 0
+2025-05-14 00:25:07,911 - INFO - 加载模型文件: models/crypto_model.joblib
+2025-05-14 00:25:08,299 - INFO - 加载标准化器文件: price_scaler.joblib
+2025-05-14 00:25:08,299 - INFO - 模型和标准化器加载成功
+2025-05-14 00:25:08,332 - INFO - 请求CryptoPanic API: https://cryptopanic.com/api/v1/posts/?auth_token=8d7f1eb6e71cf075c575d3839eb697a5ef465104&currencies=BTC&kind=news&limit=10
+2025-05-14 00:25:09,518 - INFO - CryptoPanic API响应状态码: 200
+2025-05-14 00:25:09,519 - INFO - CryptoPanic API响应数据: {"count": 200, "next": "https://cryptopanic.com/api/v1/posts/?auth_token=8d7f1eb6e71cf075c575d3839eb697a5ef465104&currencies=BTC&kind=news&limit=10&page=2", "previous": null, "results": [{"kind": "new...
+2025-05-14 00:25:09,519 - INFO - 成功获取 20 条新闻
+2025-05-14 00:31:02,840 - INFO - CryptoPanic API令牌: 8d7f1eb6e71cf075c575d3839eb697a5ef465104
+2025-05-14 00:31:02,840 - INFO - 收到的原始参数: {'days': 3, 'sentiment_score': 0.2}
+2025-05-14 00:31:02,840 - INFO - 参数已经是字典类型: {'days': 3, 'sentiment_score': 0.2}
+2025-05-14 00:31:02,840 - INFO - 预测参数 - 天数: 3, 情感分数: 0.2
+2025-05-14 00:31:02,840 - INFO - 加载模型文件: models/crypto_model.joblib
+2025-05-14 00:31:03,227 - INFO - 加载标准化器文件: price_scaler.joblib
+2025-05-14 00:31:03,228 - INFO - 模型和标准化器加载成功
+2025-05-14 00:31:03,259 - INFO - 请求CryptoPanic API: https://cryptopanic.com/api/v1/posts/?auth_token=8d7f1eb6e71cf075c575d3839eb697a5ef465104&currencies=BTC&kind=news&limit=10
+2025-05-14 00:31:04,488 - INFO - CryptoPanic API响应状态码: 429
+2025-05-14 00:31:04,488 - ERROR - CryptoPanic API请求失败，状态码: 429, 响应: <html>
+<head><title>429 Too Many Requests</title></head>
+<body>
+<center><h1>429 Too Many Requests</h1></center>
+<hr><center>nginx/1.21.6</center>
+</body>
+</html>
+
